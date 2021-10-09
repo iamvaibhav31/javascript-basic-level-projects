@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+.container{
+    width:75%;
+    border: 2px solid black;
+    margin: 2rem auto;
+}
+
+.con-title{
+    text-align: center;
+    text-transform: capitalize;
+    border-bottom:2px solid black;
+    padding:10px;
+}
+.con-process{
+    display: flex;
+}
+
+.input-con,.btn-con{
+    padding: 1rem;
+    flex-grow: 1;
+}
+
+.input-con{
+    text-align: center;
+    margin-top: 10px;
+}
+
+input{
+    padding: 4px;
+    border: none;
+    border-bottom:1px solid black ;
+    font-size: 14px;
+}
+
+.input-text h3{
+    font-size: 22px;
+    margin: 12px 0px 10px 35px;
+
+}
+.btn-con{
+    display: flex;
+}
+
+.btn-con1,.btn-con2{
+    flex-grow: 1;
+}
+
+
+.btn1,.btn2,.con1-btn,.con2-btn{
+    padding: 14px;
+    font-size: 16px;
+    border: 2px solid blue;
+    text-transform: capitalize;
+    border-radius: 5px;
+    
+}
+
+.btn1:hover,.btn2:hover,.con1-btn:hover,.con2-btn:hover {
+    color: blanchedalmond;
+    background-color: blue;
+}
+
+.con-result{
+    border-top: 2px solid black;
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.con1-btn{
+    margin: 1rem 44%;
+}
+
+
+.con1-catgen{
+    border-top: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.con1-catgen{
+    margin: 10px;
+}
+
+.con2-rps{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.rock,.paper,.scissors{
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    border: 2px solid blue;
+    margin: 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 125px;
+}
+
+.con2-result{
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border-top: 2px solid black;
+}
+
+#con2-title{
+    border: none;
+}
+.con2-result-btn{
+    text-align: center;
+    padding-top: 7.2px;
+
+}
+
+.con2-result-rows{
+    border-top: 2px solid black;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding: 4px;
+    grid-gap: 5px;
+}
+
+.title , .total{
+    text-transform: capitalize;
+    border: 2px solid black;
+    margin-bottom: 4px;
+}
+
+
+.human-result,.bot-result{
+    padding: 4px;
+    text-align: center;
+}
+
+
+/* challange 4 */
+
+.blackjack-title , .blackjack-result{
+    text-align: center;
+    text-transform: capitalize;
+    padding:10px;
+}
+
+.blackjack-result{
+    border-bottom:2PX solid black;
+}
+
+.flex-blackjack-row-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+.your-box , .dealer-box{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.your-box h2 , .dealer-box h2{
+    padding-bottom: 2.5px;
+    border-bottom: 2px solid black;
+}
+
+#your-card-box , #dealer-card-box{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.flex-blackjack-row-2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-top:2px solid black;
+}
+
+#blackjack-hit-btn , #blackjack-stand-btn , #blackjack-deal-btn{
+    padding: 14px;
+    font-size: 16px;
+    border: 2px solid blue;
+    text-transform: capitalize;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#blackjack-hit-btn:hover , #blackjack-stand-btn:hover , #blackjack-deal-btn:hover{
+    color: blanchedalmond;
+    background-color: blue; 
+}
+
+.flex-blackjack-row-3{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-top:2px solid black;
+}
+
+table, th , td {
+    padding: 4px 8px 4px 8px;
+    border: 2px solid black;
+}
